@@ -54,9 +54,3 @@ plugins:
 
 future: true
 
-gittalk:
-  clientID:  fc3c3c2d86a6df2029ed
-  clientSecret:   007cd25f3b5f27d2c6b4aa3ad59f0310175afc05
-  repository: guyuprochat
-  owner: guyupro
-  admin: guyupro
