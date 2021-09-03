@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "IPV6 测试链接"
+title:  "IPV6"
 date:   2021-09-03 19:09:58 +0000
 categories: post
 ---
