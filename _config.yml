@@ -54,3 +54,4 @@ plugins:
 
 future: true
 
+markdown: kramdown
