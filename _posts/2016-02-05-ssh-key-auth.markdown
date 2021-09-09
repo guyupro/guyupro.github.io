@@ -15,7 +15,8 @@ categories: post
 
 ## SSH密钥认证配置步骤如下：
 
-1. 在本地机器创建公钥，打开终端，执行如下命令，默认回车即可。
+### 1. 
+在本地机器创建公钥，打开终端，执行如下命令，默认回车即可。
 
 ```
 ssh-keygen -t rsa -C  'your email@domain.com'
@@ -24,7 +25,8 @@ ssh-keygen -t rsa -C  'your email@domain.com'
 其中-t 指定密钥类型，默认即 rsa ，可以省略
  其中-C 设置注释文字，比如你的邮箱
 
-2. 将公钥复制到远程ssh服务器，将前一步骤生成的公钥`~/id_rsa.pub`文件，复制到远程ssh服务器对应用户下的`~/.ssh/authorized_keys`文件。
+### 2. 
+将公钥复制到远程ssh服务器，将前一步骤生成的公钥`~/id_rsa.pub`文件，复制到远程ssh服务器对应用户下的`~/.ssh/authorized_keys`文件。
 
 当远程ssh服务器username用户目录下尚未有.ssh目录时使用此方法：
 
@@ -44,4 +46,5 @@ mkdir .ssh  #若.ssh目录已存在，可省略此步
 cat id_rsa.pub >> .ssh/authorized_keys  #将公钥文件id_rsa.pub文件内容追加到authorized_keys文件
 ```
 
-3. 快捷登录,完成以上步骤后，即可使用`ssh username@hostname`直接登录远程ssh服务器了
+### 3. 
+快捷登录,完成以上步骤后，即可使用`ssh username@hostname`直接登录远程ssh服务器了
