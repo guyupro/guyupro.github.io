@@ -12,3 +12,4 @@ permalink: /about/
 
 > 我亦无他，惟手熟尔。
 
+[联系方式 只收不发](mailto:0@guyu.pro)
