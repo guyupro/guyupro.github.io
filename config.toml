@@ -1,5 +1,5 @@
-baseurl = "https://username.github.io"
-DefaultContentLanguage = "en"
+baseurl = "https://www.guyu.pro"
+DefaultContentLanguage = "zh-cn"
 title = "Beautiful Hugo"
 theme = "beautifulhugo"
 pygmentsStyle = "trac"
