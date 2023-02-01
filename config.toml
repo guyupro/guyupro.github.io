@@ -35,12 +35,12 @@ disqusShortname = "guyupro"
 
 
 [[menu.main]]
-    name = "About"
+    name = "关于"
     url = "page/about/"
     weight = 3
 
 
 [[menu.main]]
-    name = "Tags"
+    name = "标签"
     url = "tags"
     weight = 3
