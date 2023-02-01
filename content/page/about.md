@@ -1,16 +1,10 @@
 ---
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: 关于我
 comments: false
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+> 合抱之木，生于毫末；九层之台，起于累土；千里之行，始于足下。
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+浑浑噩噩数十载，方知才疏学浅，能力有限，曾想力争上游，也曾想仗剑走天涯。
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+> 我亦无他，惟手熟尔。
