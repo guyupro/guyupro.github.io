@@ -1,0 +1,49 @@
+---
+title: "冥王哈迪斯吃上黑果子13.0"
+date: 2001-01-01
+tags: ["hac"]
+draft: false
+---
+
+
+
+![](https://www.guyu.pro/2022/11/02/mac.png)
+
+感谢国外小伙的<https://osy.gitbook.io/hac-mini-guide/>
+
+
+#### Working Hardware
+
+* [x] GPU acceleration
+* [x] Video encoder/decoder hardware
+* [x] Multiple displays \(six 4K displays max\)
+* [x] 5K display
+* [x] Ethernet \(both ports\)
+* [x] Analog Audio \(both ports, no headsets\)
+* [x] Digital Audio
+* [x] Microphone \(both stereo mics\)
+* [x] HDMI/DP audio
+* [x] USB A ports
+* [x] USB C ports
+* [x] Thunderbolt 3 ports \(including hotplug\)
+* [x] Thunderbolt IP \(XDomain, internet sharing\)
+* [x] eGPU \(with hotplug\)
+* [x] SD card slot
+* [x] NVMe/SATA SSD
+* [x] CPU power management
+* [x] Sleep/Resume
+* [x] Wifi/BT \(using Apple Wifi card\)
+* [x] Secure Boot \(with High Security\)
+
+#### Working Software
+
+* [x] Installer, App Store, app updates, OS updates
+* [x] iMessage, iCloud, Siri, iTunes, other services
+* [x] FileVault2, APFS, Time Machine, SSD TRIM
+* [x] Metal, GPU accelerated applications, hardware video encoder/decoder
+* [x] Parallels/VMWare, other VM software
+* [x] Handoff, Continuity, Universal Clipboard, Apple Watch unlock \(using Apple Wifi card\)
+* [x] SIP, Gate Keeper, all OSX security features
+
+
+
