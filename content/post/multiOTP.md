@@ -1,0 +1,28 @@
+---
+title: "Windows远程桌面双因素认证之multiOTP"
+date: 2022-11-02
+tags: ["multiOTP"]
+draft: false
+---
+
+test在实现Windows远程桌面双因素认证时，可使用multiOTP。
+
+官网：
+
+<https://www.multiotp.net/>
+
+<https://github.com/multiOTP>
+
+```
+PS C:\Program Files (x86)\multiOTP> .\multiotp -fastcreatenopin mik
+PS C:\Program Files (x86)\multiOTP> .\multiotp -qrcode mik mik.png
+```
+参考：
+
+[基于multiOTP的Windows登录2FA方案](https://www.opscaff.com/2019/04/30/%E5%9F%BA%E4%BA%8Emultiotp%E7%9A%84windows%E7%99%BB%E5%BD%952fa%E6%96%B9%E6%A1%88/)
+
+[WinAuth 在Windows上运行的2FA双因素认证器](https://roov.org/2021/01/winauth/)
+
+[ESET Secure Authentication Cloud Early Access](https://help.eset.com/esac/en-US/index.html)
+
+[Two-Factor Authentication & Data Protection | Duo Security](https://duo.com/)

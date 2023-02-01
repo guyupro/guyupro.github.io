@@ -1,0 +1,14 @@
+---
+title: "IPV6资料"
+date: 2021-09-03
+tags: ["IPV6"]
+draft: false
+---
+
+这里把常用的IPV6测试工具链接一下：
+
+[IPv6 test](https://www.test-ipv6.com/)
+
+[IPv6 checkTools](https://www.china-ipv6.cn/#/checkTools)
+
+[金融行业IPv6发展监测平台](http://finance.china-ipv6.cn/)

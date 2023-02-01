@@ -1,0 +1,14 @@
+---
+title: "NPS真是好 踩坑略记"
+date: 2021-09-30
+tags: ["nps"]
+draft: false
+---
+
+最近使用了[ehang-io](https://github.com/ehang-io/)的[NPS](https://github.com/ehang-io/nps/) ，跑了几天相对比较稳定实用。虽说有些bug，个人用户也足够使用了。
+
+我主要是用来反弹内网TCP端口，反弹内部web到外网，绑定域名，暂时未使用其他功能。
+
+- https证书需要绝对路径
+- linux客户端报错`conf/npc.conf` 实际配置写到`/conf/npc.conf`即可 
+- window客户端如果一直报错`EOF` 重启服务无用的情况下，重启系统可解决

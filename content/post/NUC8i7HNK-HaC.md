@@ -1,7 +1,7 @@
 ---
 title: "冥王哈迪斯吃上黑果子13.0"
-date: 2001-01-01
-tags: ["hac"]
+date: 2022-11-02
+tags: ["Hackintosh"]
 draft: false
 ---
 
