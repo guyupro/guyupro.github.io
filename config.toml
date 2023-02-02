@@ -28,19 +28,13 @@ disqusShortname = "guyupro"
   delayDisqus = true
   showRelatedPosts = true
   hideAuthor = true
-#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+#  gcse = "92323e358eaa347cc" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 
 
 
 
 [[menu.main]]
-    name = "关于"
+    name = "关于我"
     url = "page/about/"
-    weight = 3
-
-
-[[menu.main]]
-    name = "标签"
-    url = "tags"
     weight = 3

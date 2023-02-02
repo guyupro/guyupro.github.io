@@ -1,7 +1,7 @@
 ---
-title: "SSHFS - Windows通过SSH协议挂载Linux文件目录"
+title: "SSHFS - 通过SSH协议挂载Linux文件目录"
 date: 2023-02-01
-tags: ["sshfs"]
+tags: ["sshfs","ssh"]
 draft: false
 ---
 
