@@ -7,6 +7,8 @@ draft: false
 
 新建文件`docker-compose.yml`添加内容
 
+<!--more-->
+
 ```
 version: '3'
 

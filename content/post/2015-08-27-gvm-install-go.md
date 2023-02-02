@@ -9,6 +9,8 @@ draft: false
 Go 1.5及更新版本使用Go 1.4进行构建，Go源码树完全消除所有C的代码。
  gvm项目地址：<https://github.com/moovweb/gvm>
 
+<!--more-->
+
 1. 安装gvm
 
 ```

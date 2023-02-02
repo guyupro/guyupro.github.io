@@ -7,7 +7,9 @@ draft: false
 
 ## 验证DNS txt记录 
 
-安装`certbot-auto`，我这里使用[Ubuntu 20.04](https://certbot.eff.org/lets-encrypt/ubuntufocal-other) 进行安装。
+安装`certbot-auto`，这里使用[Ubuntu 20.04](https://certbot.eff.org/lets-encrypt/ubuntufocal-other) 进行安装。
+
+<!--more-->
 
 使用Certbot的手动模式向Let's Encrypt 申请证书
 

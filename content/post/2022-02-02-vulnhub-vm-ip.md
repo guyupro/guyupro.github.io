@@ -8,6 +8,7 @@ tags: ["vulnhub"]
 
 将Kali Linux和[Vulnhub](https://www.vulnhub.com/)靶机通过设置`nat网络`连接。
 
+<!--more-->
 ### 添加新NAT网络
 
 以VirtualBox 为例，先在VirtualBox *全局设定-网络*  点击加号  *添加新NAT网络*
