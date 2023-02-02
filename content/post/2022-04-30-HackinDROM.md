@@ -17,4 +17,4 @@ draft: false
 
 顺便从Clover切换到OC，使用自动化神器[HackinDROM](https://hackindrom.zapto.org/) 自动生成EFI文件，方便快捷省事。
 
-![](https://www.guyu.pro/2022/04/30/9700k.png)
+![](https://www.guyu.pro/2022/04/30/9700k.webp)

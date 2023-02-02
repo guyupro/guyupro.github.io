@@ -15,4 +15,4 @@ draft: false
 
 
 
-![](https://www.guyu.pro/2022/09/03/filesystemforensicanalysis.png)
+![](https://www.guyu.pro/2022/09/03/filesystemforensicanalysis.webp)
