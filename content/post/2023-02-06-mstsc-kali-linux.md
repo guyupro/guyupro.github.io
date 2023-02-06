@@ -10,9 +10,11 @@ sudo apt-get purge tightvnc xrdp
 sudo apt-get install xfce4 tightvncserver xrdp 
 sudo systemctl enable xrdp --now
 ```
+<!--more-->
 
 
 
 ![](https://www.guyu.pro/2023/02/06/1.webp)
+
 ![](https://www.guyu.pro/2023/02/06/2.webp)
 
