@@ -6,6 +6,7 @@ draft: false
 ---
 
 同时按 ctrl + shift + p
+<!--more-->
 
 ![](https://www.guyu.pro/2023/02/07/1.webp)
 
