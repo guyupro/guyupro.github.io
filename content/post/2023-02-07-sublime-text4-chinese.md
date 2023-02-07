@@ -1,6 +1,6 @@
 ---
 title: "Sublime text4 中文语言包"
-date: 2023-02-06
+date: 2023-02-07
 tags: ["Sublime"]
 draft: false
 ---
