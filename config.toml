@@ -12,8 +12,8 @@ disqusShortname = "guyupro"
 #googleAnalytics = "XXX"
 
 [Params]
-  homeTitle = "现在开始" # Set a different text for the header on the home page
-# subtitle = "Build a beautiful and simple website in minutes"
+  #homeTitle = "谷 雨" # Set a different text for the header on the home page
+  subtitle = "心情愉悦是第一生产力"
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.webp" # Expecting square dimensions
   favicon = "img/favicon.ico"
