@@ -3,6 +3,7 @@ title: "gvm安装Go 1.5"
 date: 2015-08-27
 tags: ["gvm", "go"]
 draft: false
+categories: golang
 ---
 
 
