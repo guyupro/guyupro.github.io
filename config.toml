@@ -4,7 +4,7 @@ languageCode = "zh-cn"
 title = "雨生百谷🧨🚀🪐🌌"
 copyright = "解释权归网站所有者所有"
 theme = "diary"
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "G-G1RLQ6H3D2"
 
 [markup]
   [markup.highlight]
@@ -24,11 +24,11 @@ enableGitalk = false
 enableGiscus = false
 
 # Microsoft Clarity (https://clarity.microsoft.com/) is a free user behavior recording and analytics tool
-clarity = "abcdefghzd"
+clarity = "in7elp8rfu"
 
 # Twitter Card and Open Graph settings
 enableOpenGraph = false
-enableTwitterCards = true
+enableTwitterCards = false
 title = "aaaaa" # will set 'og:site_name'
 description = "My HomePage Description"  # will set 'og:description'
 
