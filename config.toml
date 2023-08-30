@@ -1,40 +1,85 @@
-baseurl = "https://www.guyu.pro"
-DefaultContentLanguage = "zh-cn"
-title = "🧨🚀🪐🌌"
-theme = "beautifulhugo"
-pygmentsStyle = "trac"
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-#pygmentsUseClassic = true
-#pygmentOptions = "linenos=inline"
-disqusShortname = "guyupro"
-#googleAnalytics = "XXX"
+baseURL = "https://www.guyu.pro/"
+DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
+languageCode = "zh-cn"
+title = "雨生百谷🧨🚀🪐🌌"
+copyright = "解释权归网站所有者所有"
+theme = "diary"
+# googleAnalytics = "UA-123-45"
 
-[Params]
-  #homeTitle = "谷 雨" # Set a different text for the header on the home page
-  subtitle = "心情愉悦是第一生产力"
-  mainSections = ["post","posts"]
-  logo = "img/avatar-icon.webp" # Expecting square dimensions
-  favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
-  commit = false
-  rss = true
-  comments = true
-  readingTime = true
-  wordCount = true
-  useHLJS = true
-  socialShare = true
-  delayDisqus = true
-  showRelatedPosts = true
-  hideAuthor = true
-#  gcse = "92323e358eaa347cc" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "perldoc"
+    tabWidth = 4
 
+[params]
+subtitle = "个人blog"
+enableGitalk = false
+enableGiscus = false
 
+# Microsoft Clarity (https://clarity.microsoft.com/) is a free user behavior recording and analytics tool
+clarity = "abcdefghzd"
 
+# Twitter Card and Open Graph settings
+enableOpenGraph = false
+enableTwitterCards = true
+title = "aaaaa" # will set 'og:site_name'
+description = "My HomePage Description"  # will set 'og:description'
+
+[params.gitalk]
+  owner = "user"
+  repo = "repo name"
+  client_id = "your client id"
+  client_secret = "your client secret"
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+
+[params.utterances]
+repo="your repo"
+term="[ENTER TERM HERE]"
+label="your label"
+theme="github-light"
+
+# Please visit https://giscus.app/ to generate settings.
+[params.giscus]
+    data_repo="username/repo"
+    data_repo_id="**************************"    
+    data_category="General"
+    data_category_id="*********************"
+    data_mapping="pathname"
+    data_strict="0"
+    data_reactions_enabled="1"
+    data_emit_metadata="0"
+    data_input_position="bottom"
+    data_theme="preferred_color_scheme"
+    data_lang="en"
+    crossorigin="anonymous"
 
 
 [[menu.main]]
-    name = "关于我"
-    url = "page/about/"
-    weight = 3
+url = "/post"
+name = "归档"
+weight = 1
+[[menu.main]]
+url = "/categories"
+name = "分类"
+weight = 2
+[[menu.main]]
+url = "/tags"
+name = "标签"
+weight = 3
+[[menu.main]]
+url = "/page/about/"
+name = "关于我"
+weight = 4
+[[menu.main]]
+url = "/index.xml"
+name = "RSS"
+weight = 5
