@@ -19,7 +19,7 @@ googleAnalytics = "G-G1RLQ6H3D2"
     tabWidth = 4
 
 [params]
-subtitle = "个人blog"
+subtitle = "个人博客"
 enableGitalk = false
 enableGiscus = false
 
@@ -27,7 +27,7 @@ enableGiscus = false
 clarity = "in7elp8rfu"
 
 # Twitter Card and Open Graph settings
-enableOpenGraph = false
+enableOpenGraph = true
 enableTwitterCards = false
 title = "aaaaa" # will set 'og:site_name'
 description = "My HomePage Description"  # will set 'og:description'
