@@ -35,7 +35,7 @@ sudo apt  -o Acquire::socks::proxy="socks5://127.0.0.1:1080/"  install v2raya v2
 ```
 ### 启动
 
-```
+```bash
 sudo systemctl restart v2raya.service
 ```
 
@@ -62,7 +62,7 @@ sudo v2raya --reset-password
 | 透明代理/系统代理         | 启用:大陆白名单模式 |
 | 透明代理/系统代理实现方式 | gvisor tun          |
 
-```
+```bash
 curl ip.fm
 ```
 
