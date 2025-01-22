@@ -1,6 +1,6 @@
 ---
 title: "打靶日记"
-date: 2025-01-16
+date: 2025-01-22
 tags: ["offsec","hackthebox"]
 draft: false
 ---
@@ -14,16 +14,12 @@ draft: false
 | HackTheBox | Adagio (HTB Enterprise Box)                                  | ⏳      |
 | HackTheBox | [Blackfield](https://app.hackthebox.com/machines/Blackfield) | ✅      |
 | HackTheBox | [Cascade](https://app.hackthebox.com/machines/Cascade)       | ✅     |
-| HackTheBox | Cicada                                                       | ✅      |
-| HackTheBox | Escape                                                       | ⏳      |
-| HackTheBox | Flight                                                       | ⏳      |
-| HackTheBox | Forest                                                       | ⏳      |
-| HackTheBox | Monteverde                                                   | ⏳      |
+| HackTheBox | [Cicada](https://app.hackthebox.com/machines/Cicada)         | ✅      |
+| HackTheBox | [Escape](https://app.hackthebox.com/machines/Escape)         | ✅      |
+| HackTheBox | [Flight](https://app.hackthebox.com/machines/Flight)         | ✅      |
+| HackTheBox | [Forest](https://app.hackthebox.com/machines/Forest)         | ✅     |
+| HackTheBox | [Monteverde](https://app.hackthebox.com/machines/Monteverde) | ✅     |
 | HackTheBox | [Return](https://app.hackthebox.com/machines/Return)         | ✅      |
 | HackTheBox | [Sauna](https://app.hackthebox.com/machines/Sauna)           | ✅      |
-| HackTheBox | Timelapse                                                    | ⏳      |
-|            |                                                              |        |
-|            |                                                              |        |
-|            |                                                              |        |
-|            |                                                              |        |
+| HackTheBox | [Timelapse](https://app.hackthebox.com/machines/Timelapse)   | ✅     |
 
