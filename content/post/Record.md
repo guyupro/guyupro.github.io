@@ -36,7 +36,7 @@ draft: false
 
 | **NAME**      | STATUS |
 | ------------- | ------ |
-| Access        | ⏳      |
+| [Access](https://app.hackthebox.com/machines/Access)        | ✅      |
 | Administrator | ⏳      |
 | Aero          | ⏳      |
 | Blackfield    | ⏳      |
@@ -73,3 +73,10 @@ draft: false
 
 ### 🧿ProLabs
 
+## Proving Grounds Practice
+
+## Proving Grounds Play
+
+## Vulnlab
+
+## Other Labs
