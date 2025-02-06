@@ -1,8 +1,8 @@
 baseURL = "https://www.guyu.pro/"
 DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "zh-cn"
-title = "雨生百谷🧨🚀🪐🌌"
-copyright = "解释权归网站所有者所有"
+title = "🧨🚀🪐🌌"
+copyright = "本站内容解释权归网站所有者所有"
 theme = "diary"
 googleAnalytics = "G-G1RLQ6H3D2"
 
@@ -19,7 +19,7 @@ googleAnalytics = "G-G1RLQ6H3D2"
     tabWidth = 4
 
 [params]
-subtitle = "个人博客"
+subtitle = "白帽谷哥"
 enableGitalk = false
 enableGiscus = false
 

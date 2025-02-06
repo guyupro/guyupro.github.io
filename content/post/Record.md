@@ -1,6 +1,6 @@
 ---
 title: "打靶日记"
-date: 2025-01-22
+date: 2025-02-06
 tags: ["offsec","hackthebox"]
 draft: false
 ---
