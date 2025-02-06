@@ -37,9 +37,8 @@ draft: false
 | **NAME**      | STATUS |
 | ------------- | ------ |
 | [Access](https://app.hackthebox.com/machines/Access)        | ✅      |
-| Administrator | ⏳      |
-| Aero          | ⏳      |
-| Blackfield    | ⏳      |
+| [Administrator](https://app.hackthebox.com/machines/Administrator) | ✅      |
+| [Aero](https://app.hackthebox.com/machines/Aero)          | ✅      |
 | Certified     | ⏳      |
 | Intelligence  | ⏳      |
 | Jeeves        | ⏳      |
