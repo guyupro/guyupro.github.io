@@ -1,6 +1,6 @@
 ---
 title: "打靶日记"
-date: 2025-02-06
+date: 2025-02-11
 tags: ["offsec","hackthebox"]
 draft: false
 ---
@@ -32,18 +32,18 @@ draft: false
 | UpDown      | ⏳      |
 | Usage       | ⏳      |
 
-### 🔵Windows Boxes:
+### 🔵Windows Boxes
 
 | **NAME**      | STATUS |
 | ------------- | ------ |
 | [Access](https://app.hackthebox.com/machines/Access)        | ✅      |
 | [Administrator](https://app.hackthebox.com/machines/Administrator) | ✅      |
 | [Aero](https://app.hackthebox.com/machines/Aero)          | ✅      |
-| Certified     | ⏳      |
-| Intelligence  | ⏳      |
-| Jeeves        | ⏳      |
-| Mailing       | ⏳      |
-| Manager       | ⏳      |
+| [Certified](https://app.hackthebox.com/machines/Certified)     | ✅      |
+| [Intelligence](https://app.hackthebox.com/machines/Intelligence)  | ✅      |
+| [Jeeves](https://app.hackthebox.com/machines/Jeeves)        | ✅      |
+| [Mailing](https://app.hackthebox.com/machines/Mailing)       | ✅      |
+| [Manager](https://app.hackthebox.com/machines/Manager)       | ✅      |
 | Servmon       | ⏳      |
 | StreamIO      | ⏳      |
 | Support       | ⏳      |
@@ -73,9 +73,57 @@ draft: false
 ### 🧿ProLabs
 
 ## Proving Grounds Practice
+### 🟡Linux Boxes
 
+| **NAME**    | **STATUS** |
+| ----------- | ---------- |
+| Astronaut   | ⏳          |
+| BitForge    | ⏳          |
+| Blackgate   | ⏳          |
+| Boolean     | ⏳          |
+| Clue        | ⏳          |
+| Cockpit     | ⏳          |
+| Codo        | ⏳          |
+| Crane       | ⏳          |
+| Exfiltrated | ⏳          |
+| Extplorer   | ⏳          |
+| Fired       | ⏳          |
+| Flu         | ⏳          |
+| Hub         | ⏳          |
+| Image       | ⏳          |
+| Jordak      | ⏳          |
+| Lavita      | ⏳          |
+| law         | ⏳          |
+| Levram      | ⏳          |
+| Ochima      | ⏳          |
+| PC          | ⏳          |
+| Pelican     | ⏳          |
+| Plum        | ⏳          |
+| Press       | ⏳          |
+| PyLoader    | ⏳          |
+| RubyDome    | ⏳          |
+| Scrutiny    | ⏳          |
+| SPX         | ⏳          |
+| Twiggy      | ⏳          |
+| Vmdak       | ⏳          |
+| Zipper      | ⏳          |
+### 🔵Windows Boxes
+### 🟢Windows Active Directory Boxes
+### 🔴Post OSCP Section. Challenging yourself
 ## Proving Grounds Play
+### 🟡Linux Boxes
 
+### 🔴Post OSCP Section. Challenging yourself
 ## Vulnlab
+### 🟡Linux Boxes
+### 🔵Windows Boxes
+### 🟢Windows Active Directory Boxes
+### 🔴Post OSCP Section. Challenging yourself
 
 ## Other Labs
+| **NAME**                                                     | **STATUS** |
+| ------------------------------------------------------------ | ---------- |
+| [GOAD](https://github.com/Orange-Cyberdefense/GOAD/tree/main) | ⏳          |
+| [VulnAD](https://github.com/tjnull/OSCP-Stuff/tree/master/Active-Directory) | ⏳          |
+| [Ludus](https://gitlab.com/badsectorlabs/ludus)              | ⏳          |
+| [Tj Null Active   Directory box](https://github.com/tjnull/OSCP-Stuff/tree/master/Active-Directory) | ⏳          |
