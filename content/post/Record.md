@@ -44,9 +44,9 @@ draft: false
 | [Jeeves](https://app.hackthebox.com/machines/Jeeves)        | ✅      |
 | [Mailing](https://app.hackthebox.com/machines/Mailing)       | ✅      |
 | [Manager](https://app.hackthebox.com/machines/Manager)       | ✅      |
-| Servmon       | ⏳      |
-| StreamIO      | ⏳      |
-| Support       | ⏳      |
+| [Servmon](https://app.hackthebox.com/machines/ServMon)       | ✅      |
+| [StreamIO](https://app.hackthebox.com/machines/StreamIO)      | ✅      |
+| [Support](https://app.hackthebox.com/machines/Support)       | ✅      |
 
 
 ### 🟢Windows Active Directory Boxes
