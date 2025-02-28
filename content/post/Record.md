@@ -13,15 +13,15 @@ draft: false
 
 | NAME        | STATUS |
 | ----------- | ------ |
-| BoardLight  | ⏳      |
-| Broker      | ⏳      |
-| Builder     | ⏳      |
-| Busqueda    | ⏳      |
-| CozyHosting | ⏳      |
-| Editorial   | ⏳      |
-| Help        | ⏳      |
-| Intentions  | ⏳      |
-| Keeper      | ⏳      |
+| BoardLight  | ✅      |
+| Broker      | ✅      |
+| Builder     | ✅      |
+| Busqueda    | ✅      |
+| CozyHosting | ✅      |
+| Editorial   | ✅      |
+| Help        | ✅      |
+| Intentions  | ✅      |
+| [Keeper](https://app.hackthebox.com/machines/Keeper)      | ✅      |
 | LinkVortex  | ⏳      |
 | Magic       | ⏳      |
 | Monitored   | ⏳      |
@@ -77,15 +77,15 @@ draft: false
 
 | **NAME**    | **STATUS** |
 | ----------- | ---------- |
-| Astronaut   | ⏳          |
+| Astronaut   | ✅          |
 | BitForge    | ⏳          |
 | Blackgate   | ⏳          |
 | Boolean     | ⏳          |
 | Clue        | ⏳          |
 | Cockpit     | ⏳          |
-| Codo        | ⏳          |
+| Codo        | ✅          |
 | Crane       | ⏳          |
-| Exfiltrated | ⏳          |
+| Exfiltrated | ✅          |
 | Extplorer   | ⏳          |
 | Fired       | ⏳          |
 | Flu         | ⏳          |
@@ -101,13 +101,31 @@ draft: false
 | Plum        | ⏳          |
 | Press       | ⏳          |
 | PyLoader    | ⏳          |
-| RubyDome    | ⏳          |
+| RubyDome    | ✅          |
 | Scrutiny    | ⏳          |
 | SPX         | ⏳          |
 | Twiggy      | ⏳          |
 | Vmdak       | ⏳          |
 | Zipper      | ⏳          |
 ### 🔵Windows Boxes
+| NAME      | STATUS |
+| --------- | ------ |
+| Algernon  | ✅      |
+| Authby    | ⏳      |
+| Craft     | ⏳      |
+| DVR4      | ⏳      |
+| Helpdesk  | ⏳      |
+| Hepet     | ⏳      |
+| Hutch     | ⏳      |
+| Internal  | ⏳      |
+| Jacko     | ⏳      |
+| Kevin     | ✅      |
+| MedJed    | ⏳      |
+| Nickel    | ⏳      |
+| Resourced | ⏳      |
+| Shenzi    | ⏳      |
+| Slort     | ⏳      |
+| Squid     | ✅      |
 ### 🟢Windows Active Directory Boxes
 ### 🔴Post OSCP Section. Challenging yourself
 ## Proving Grounds Play
