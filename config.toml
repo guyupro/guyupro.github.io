@@ -62,6 +62,7 @@ theme="github-light"
     data_lang="en"
     crossorigin="anonymous"
 
+paginate = 20
 
 [[menu.main]]
 url = "/post"
@@ -83,3 +84,7 @@ weight = 4
 url = "/index.xml"
 name = "RSS"
 weight = 5
+
+
+
+customCSS = ["css/extra.css"]

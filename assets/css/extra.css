@@ -1,0 +1,21 @@
+/* 全局内容区加宽 */
+.main-container,
+.content,
+.post-single-content,
+.post-list-container {
+    max-width: 1000px !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* 让页面在超大屏下更加舒展 */
+@media screen and (min-width: 1080px) {
+    .main-container,
+    .content,
+    .post-single-content,
+    .post-list-container {
+        max-width: 1100px !important;
+    }
+}
