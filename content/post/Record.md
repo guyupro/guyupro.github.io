@@ -13,24 +13,24 @@ draft: false
 
 | NAME        | STATUS |
 | ----------- | ------ |
-| BoardLight  | ✅      |
-| Broker      | ✅      |
-| Builder     | ✅      |
-| Busqueda    | ✅      |
-| CozyHosting | ✅      |
-| Editorial   | ✅      |
-| Help        | ✅      |
-| Intentions  | ✅      |
+| [BoardLight](https://app.hackthebox.com/machines/BoardLight)  | ✅      |
+| [Broker](https://app.hackthebox.com/machines/Broker)      | ✅      |
+| [Builder](https://app.hackthebox.com/machines/Builder)     | ✅      |
+| [Busqueda](https://app.hackthebox.com/machines/Busqueda)    | ✅      |
+| [CozyHosting](https://app.hackthebox.com/machines/CozyHosting) | ✅      |
+| [Editorial](https://app.hackthebox.com/machines/Editorial)   | ✅      |
+| [Help](https://app.hackthebox.com/machines/Help)        | ✅      |
+| [Intentions](https://app.hackthebox.com/machines/Intentions)  | ✅      |
 | [Keeper](https://app.hackthebox.com/machines/Keeper)      | ✅      |
-| LinkVortex  | ⏳      |
-| Magic       | ⏳      |
-| Monitored   | ⏳      |
-| Networked   | ⏳      |
-| Pandora     | ⏳      |
-| Sau         | ⏳      |
-| Soccer      | ⏳      |
-| UpDown      | ⏳      |
-| Usage       | ⏳      |
+| [LinkVortex](https://app.hackthebox.com/machines/LinkVortex)  | ✅      |
+| [Magic](https://app.hackthebox.com/machines/Magic)       | ✅      |
+| [Monitored](https://app.hackthebox.com/machines/Monitored)   | ✅      |
+| [Networked](https://app.hackthebox.com/machines/Networked)   | ✅      |
+| [Pandora](https://app.hackthebox.com/machines/Pandora)     | ✅      |
+| [Sau](https://app.hackthebox.com/machines/Sau)         | ✅      |
+| [Soccer](https://app.hackthebox.com/machines/Soccer)      | ✅      |
+| [UpDown](https://app.hackthebox.com/machines/UpDown)      | ✅      |
+| [Usage](https://app.hackthebox.com/machines/Usage)       | ✅      |
 
 ### 🔵Windows Boxes
 
