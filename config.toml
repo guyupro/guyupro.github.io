@@ -76,7 +76,7 @@ url = "/tags"
 name = "标签"
 weight = 3
 [[menu.main]]
-url = "/page/about/"
+url = "/about/"
 name = "关于"
 weight = 4
 [[menu.main]]
