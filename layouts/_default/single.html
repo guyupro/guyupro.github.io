@@ -19,15 +19,15 @@
                 </div>
                 {{ end }}
                 <div class="post-meta">
-                    {{ if .Params.date}}
+                    <!-- {{ if .Params.date}}
                     <time itemprop="datePublished">
                         {{ i18n "format_date" .PublishDate }}
                     </time>
-                    {{ end }}
+                    {{ end }} -->
 
                     {{ if .Params.categories }}
                     <i class="material-icons" style="">folder</i>
-                    <a href="{{ " /categories/" | relLangURL }}{{ .Params.categories | urlize }}">{{ .Params.categories
+                    <a href="{{ "categories/" | relLangURL }}{{ .Params.categories | urlize }}">{{ .Params.categories
                         }}</a>
                     &nbsp;
                     {{ end }}
@@ -35,7 +35,7 @@
                     {{ if gt .Params.tags 0 }}
                     <i class="material-icons" style="">label</i>
                     {{ range .Params.tags }}
-                    <a href="{{ " /tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+                    <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
                     &nbsp;
                     {{ end }}
                     {{ end }}

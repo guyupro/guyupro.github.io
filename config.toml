@@ -1,4 +1,4 @@
-baseURL = "https://www.guyu.pro/"
+baseURL = "https://www.guyu.pro"
 DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "zh-cn"
 title = "🧨🚀🪐🌌"
